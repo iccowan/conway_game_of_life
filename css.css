@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#game-of-life table {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 99vw;
+    height: 99vh;
+    border-collapse: collapse;
+}
+
+td.box {
+    border-style: solid;
+    border-color: black;
+    background-color: none;
+}
+
+td.box.alive {
+    background-color: green;
+}
+
